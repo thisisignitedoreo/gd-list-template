@@ -1,0 +1,23 @@
+<h1>Example List</h1>
+<list>
+</list>
+<script>
+				var list = document.querySelector('list');
+				function populateHeader(jsonObj) {
+								var levels = jsonObj['list']; 
+								for (var i = 0; i < levels.length; i++) { 
+												var lvl = document.createElement('h2'); 
+												lvl.textContent = levels[i].top + ". " + levels[i].name + ", made by " + levels[i].madeby + " (" + levels[i].id + ")";
+												list.appendChild(lvl);
+								}
+				}
+				var reqURL = "https://thisisignitedoreo.github.io/gd-list-template/list.json";
+				var request = new XMLHttpRequest();
+				request.open('GET', reqURL);
+				request.responseType = 'json';
+				request.send();
+				request.onload = function() {
+								var list = request.response;
+								populateHeader(list);
+				}
+</script>
