@@ -1,3 +1,14 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Google Sans&display=swap');
+h1 {
+font-family: 'Google Sans', sans-serif;
+font-size: 25px;
+}
+h2 {
+font-family: 'Google Sans', sans-serif;
+font-size: 10px;
+}
+</style>
 <h1>Example List</h1>
 <list>
 </list>
@@ -10,7 +21,7 @@
 												lvl.textContent = levels[i].top + ". " + levels[i].name + ", made by " + levels[i].madeby + " (" + levels[i].id + ")";
 												list.appendChild(lvl);
 								}
-				}
+                                }
 				var reqURL = "https://thisisignitedoreo.github.io/gd-list-template/list.json";
 				var request = new XMLHttpRequest();
 				request.open('GET', reqURL);
