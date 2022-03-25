@@ -1,15 +1,16 @@
 {
-    "list-name": "Template lol",
     "list": [
         {
             "top": "1",
-            "name": "lal level name here",
-            "id": "12345678"
+            "name": "Sakupen Circles",
+            "id": "76962930",
+            "madeby": "Nick24 and more"
         },
         {
             "top": "2",
-            "name": ":D",
-            "id": "87654321"
+            "name": "Slaughterhouse",
+            "id": "27690100",
+            "madeby": "icedcave and more"
         }
     ]
 }
