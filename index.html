@@ -7,7 +7,7 @@ h2 {
 font-family: 'Google Sans', sans-serif;
 }
 </style>
-<h1>Example List</h1>
+<h2>Example List</h2>
 <list>
 </list>
 <script>
@@ -15,7 +15,7 @@ font-family: 'Google Sans', sans-serif;
 				function populateHeader(jsonObj) {
 								var levels = jsonObj['list']; 
 								for (var i = 0; i < levels.length; i++) { 
-												var lvl = document.createElement('h2'); 
+												var lvl = document.createElement('h1'); 
 												lvl.textContent = levels[i].top + ". " + levels[i].name + ", made by " + levels[i].madeby + " (" + levels[i].id + ")";
 												list.appendChild(lvl);
 								}
