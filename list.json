@@ -1,0 +1,15 @@
+{
+    "list-name": "Template lol",
+    "list": [
+        {
+            "top": "1",
+            "name": "lal level name here",
+            "id": "12345678"
+        },
+        {
+            "top": "2",
+            "name": ":D",
+            "id": "87654321"
+        }
+    ]
+}
